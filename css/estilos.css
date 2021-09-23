@@ -1,0 +1,308 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700&display=swap");
+* {
+  padding: 0px;
+  margin: 0px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+}
+
+/* GENERAL */
+.contenedor {
+  margin: 0px 10%;
+}
+
+/* Portada */
+header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  min-height: 100vh;
+  background-image: url("https://via.placeholder.com/1920");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  -webkit-animation: slide 5s infinite linear alternate;
+          animation: slide 5s infinite linear alternate;
+}
+
+@-webkit-keyframes slide {
+  0% {
+    background-image: url("https://via.placeholder.com/1930");
+  }
+  25% {
+    background-image: url("https://via.placeholder.com/1940");
+  }
+  50% {
+    background-image: url("https://via.placeholder.com/1950");
+  }
+  75% {
+    background-image: url("https://via.placeholder.com/1960");
+  }
+}
+
+@keyframes slide {
+  0% {
+    background-image: url("https://via.placeholder.com/1930");
+  }
+  25% {
+    background-image: url("https://via.placeholder.com/1940");
+  }
+  50% {
+    background-image: url("https://via.placeholder.com/1950");
+  }
+  75% {
+    background-image: url("https://via.placeholder.com/1960");
+  }
+}
+
+header a {
+  margin-top: 40px;
+  font-size: 1.9rem;
+  text-decoration: none;
+  color: #d5d5d5;
+  background-color: #181818;
+  padding: 14px 10px;
+}
+
+header .mobile {
+  display: none;
+}
+
+/* NAV */
+nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 80px;
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0px;
+  padding: 15px 0px;
+  background-color: #181818;
+  z-index: 100;
+  border: none;
+}
+
+nav a img {
+  width: 90px;
+}
+
+nav .menuNav li {
+  display: inline-block;
+}
+
+nav .menuNav li a {
+  text-decoration: none;
+  color: #d5d5d5;
+  font-size: 1.8rem;
+  margin-left: 15px;
+  text-decoration: none;
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+}
+
+nav .menuNav li a:hover {
+  color: #85a6a5;
+  text-decoration: none;
+}
+
+#hamb {
+  display: none;
+}
+
+/* HOME */
+#home {
+  min-height: 90vh;
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-color: #d5d5d5;
+}
+
+#home .homeInfo {
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+#home .waveDown {
+  position: absolute;
+  bottom: 0;
+  height: 150px;
+  width: 100%;
+}
+
+#home p {
+  font-size: 1.8rem;
+  text-align: center;
+  font-weight: 500;
+  line-height: 1.6;
+  color: #181818;
+}
+
+#home a {
+  font-size: 1.8rem;
+  text-decoration: none;
+  color: #181818;
+  background-color: transparent;
+  margin-top: 50px;
+  border: 2px solid #181818;
+  padding: 10px 20px;
+}
+
+#about {
+  min-height: 100vh;
+  background-color: #181818;
+}
+
+@media (max-width: 512px) {
+  .contenedor {
+    margin: 0px 5%;
+  }
+  header {
+    background-image: -webkit-gradient(linear, left top, left bottom, from(#000000d9), to(#181818)), url("../media/footprint-10.svg") !important;
+    background-image: linear-gradient(to bottom, #000000d9, #181818), url("../media/footprint-10.svg") !important;
+  }
+  header .mobile {
+    display: block;
+    width: 300px;
+  }
+  header .desktop {
+    display: none;
+  }
+  header a {
+    background-color: transparent;
+    border: 2px solid #d5d5d5;
+    color: #d5d5d5;
+    margin-top: 50px;
+  }
+  /* MENU */
+  nav .menuNav {
+    position: absolute;
+    top: 100%;
+    left: -110%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    background-color: #181818;
+    width: 100%;
+    height: 100vh;
+    -webkit-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+  }
+  nav .menuNav li {
+    margin: 30px 0px;
+  }
+  nav .menuNav li a {
+    margin-left: 0px;
+    color: #d5d5d5;
+    font-size: 4rem;
+    font-weight: 600;
+  }
+  .menuNav.active {
+    position: absolute;
+    top: 100%;
+    left: 0px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    background-color: #181818;
+    width: 100%;
+    height: 100vh;
+    -webkit-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+  }
+  #hamb {
+    display: block;
+    width: 50px;
+    color: #d5d5d5;
+    padding: 7px;
+  }
+  /* HOME */
+  #home {
+    padding-top: 70px;
+  }
+  #home .homeInfo {
+    -webkit-box-pack: start;
+        -ms-flex-pack: start;
+            justify-content: flex-start;
+    -webkit-box-align: start;
+        -ms-flex-align: start;
+            align-items: flex-start;
+  }
+  #home p {
+    text-align: left;
+  }
+  #home .waveDown {
+    height: 30px;
+    width: 100%;
+  }
+}
+/*# sourceMappingURL=estilos.css.map */

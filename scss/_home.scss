@@ -1,0 +1,40 @@
+/* HOME */
+
+#home {
+    min-height: 90vh;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: $grisTres;
+    .homeInfo {
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .waveDown {
+        position: absolute;
+        bottom: 0;
+        height: 150px;
+        width: 100%;
+    }
+    p {
+        font-size: 1.8rem;
+        text-align: center;
+        font-weight: 500;
+        line-height: 1.6;
+        color: $negro;
+    }
+    a {
+        font-size: 1.8rem;
+        text-decoration: none;
+        color: $negro;
+        background-color: transparent;
+        margin-top: 50px;
+        border: 2px solid $negro;
+        padding: 10px 20px;
+    }
+}

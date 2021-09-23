@@ -1,0 +1,89 @@
+@media (max-width: 512px) {
+    .contenedor {
+        margin: 0px 5%;
+    }
+    header {
+        background-image: linear-gradient(to bottom, #000000d9, #181818),
+            url('../media/footprint-10.svg') !important;
+    }
+    header .mobile {
+        display: block;
+        width: 300px;
+    }
+
+    header .desktop {
+        display: none;
+    }
+
+    header a {
+        background-color: transparent;
+        border: 2px solid #d5d5d5;
+        color: #d5d5d5;
+        margin-top: 50px;
+    }
+
+    /* MENU */
+    nav .menuNav {
+        position: absolute;
+        top: 100%;
+        left: -110%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        background-color: $negro;
+        width: 100%;
+        height: 100vh;
+        transition: all 0.3s ease-in-out;
+        li {
+            margin: 30px 0px;
+            a {
+                margin-left: 0px;
+                color: $grisTres;
+                font-size: 4rem;
+                font-weight: 600;
+            }
+        }
+    }
+
+    .menuNav.active {
+        position: absolute;
+        top: 100%;
+        left: 0px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        background-color: $negro;
+        width: 100%;
+        height: 100vh;
+        transition: all 0.3s ease-in-out;
+    }
+
+    #hamb {
+        display: block;
+        width: 50px;
+        color: $grisTres;
+        padding: 7px;
+    }
+
+    /* HOME */
+
+    #home {
+        padding-top: 70px;
+    }
+
+    #home .homeInfo {
+        justify-content: flex-start;
+        align-items: flex-start;
+    }
+
+    #home p {
+        text-align: left;
+    }
+
+    #home .waveDown {
+        height: 30px;
+        width: 100%;
+    }
+}

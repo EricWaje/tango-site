@@ -1,0 +1,15 @@
+@import 'fonts';
+@import 'variables';
+@import 'reset';
+
+/* GENERAL */
+.contenedor {
+    margin: 0px 10%;
+}
+
+@import 'portada';
+@import 'nav';
+@import 'home';
+@import 'about';
+
+@import 'media-queries';

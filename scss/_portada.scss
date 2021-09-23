@@ -1,0 +1,44 @@
+/* Portada */
+header {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-image: url('https://via.placeholder.com/1920');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    animation: slide 5s infinite linear alternate;
+}
+
+@keyframes slide {
+    0% {
+        background-image: url('https://via.placeholder.com/1930');
+    }
+
+    25% {
+        background-image: url('https://via.placeholder.com/1940');
+    }
+
+    50% {
+        background-image: url('https://via.placeholder.com/1950');
+    }
+
+    75% {
+        background-image: url('https://via.placeholder.com/1960');
+    }
+}
+
+header a {
+    margin-top: 40px;
+    font-size: 1.9rem;
+    text-decoration: none;
+    color: #d5d5d5;
+    background-color: #181818;
+    padding: 14px 10px;
+}
+
+header .mobile {
+    display: none;
+}

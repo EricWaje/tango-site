@@ -1,0 +1,35 @@
+/* NAV */
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 80px;
+    position: sticky;
+    top: 0px;
+    padding: 15px 0px;
+    background-color: $negro;
+    z-index: 100;
+    border: none;
+    a img {
+        width: 90px;
+    }
+    .menuNav li {
+        display: inline-block;
+        a {
+            text-decoration: none;
+            color: $grisTres;
+            font-size: 1.8rem;
+            margin-left: 15px;
+            text-decoration: none;
+            transition: all 0.3s ease-in-out;
+            &:hover {
+                color: $otroCuatro;
+                text-decoration: none;
+            }
+        }
+    }
+}
+
+#hamb {
+    display: none;
+}
