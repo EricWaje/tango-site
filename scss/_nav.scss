@@ -9,22 +9,32 @@ nav {
     padding: 15px 0px;
     background-color: $negro;
     z-index: 100;
-    border: none;
+    border-bottom: 2px solid $grisTres;
     a img {
         width: 90px;
     }
     .menuNav li {
         display: inline-block;
         a {
+            position: relative;
             text-decoration: none;
             color: $grisTres;
             font-size: 1.8rem;
             margin-left: 15px;
             text-decoration: none;
             transition: all 0.3s ease-in-out;
-            &:hover {
-                color: $otroCuatro;
-                text-decoration: none;
+            &::after {
+                content: '';
+                position: absolute;
+                bottom: -8px;
+                left: 0px;
+                width: 0%;
+                height: 3px;
+                background-image: linear-gradient(to right, #181818, #d5d5d5);
+                transition: all 0.3s ease-in-out;
+            }
+            &:hover::after {
+                width: 100%;
             }
         }
     }

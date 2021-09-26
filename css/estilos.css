@@ -105,7 +105,7 @@ nav {
   padding: 15px 0px;
   background-color: #181818;
   z-index: 100;
-  border: none;
+  border-bottom: 2px solid #d5d5d5;
 }
 
 nav a img {
@@ -117,6 +117,7 @@ nav .menuNav li {
 }
 
 nav .menuNav li a {
+  position: relative;
   text-decoration: none;
   color: #d5d5d5;
   font-size: 1.8rem;
@@ -126,9 +127,21 @@ nav .menuNav li a {
   transition: all 0.3s ease-in-out;
 }
 
-nav .menuNav li a:hover {
-  color: #85a6a5;
-  text-decoration: none;
+nav .menuNav li a::after {
+  content: '';
+  position: absolute;
+  bottom: -8px;
+  left: 0px;
+  width: 0%;
+  height: 3px;
+  background-image: -webkit-gradient(linear, left top, right top, from(#181818), to(#d5d5d5));
+  background-image: linear-gradient(to right, #181818, #d5d5d5);
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+}
+
+nav .menuNav li a:hover::after {
+  width: 100%;
 }
 
 #hamb {
@@ -137,7 +150,12 @@ nav .menuNav li a:hover {
 
 /* HOME */
 #home {
-  min-height: 90vh;
+  background-image: url("../media/Huellita.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  min-height: 94vh;
+  padding: 100px 0px 80px 0px;
   position: relative;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -172,20 +190,26 @@ nav .menuNav li a:hover {
           align-items: center;
 }
 
-#home .waveDown {
-  position: absolute;
-  bottom: 0;
-  height: 150px;
-  width: 100%;
+#home .homeInfo .introHome h2 {
+  color: #181818;
+  font-size: 4rem;
+  font-weight: 300;
+  text-shadow: 1px 1.5px 7px #7c7c7c;
 }
 
-#home p {
-  padding-top: 30px;
-  font-size: 1.8rem;
-  text-align: center;
-  font-weight: 500;
-  line-height: 1.6;
+#home .homeInfo .introHome h3 {
   color: #181818;
+  font-size: 5rem;
+  font-weight: 700;
+  text-shadow: 1px 1.5px 7px #7c7c7c;
+}
+
+#home .homeInfo .introHome h4 {
+  color: #181818;
+  font-size: 3.5rem;
+  font-weight: 400;
+  margin-bottom: 55px;
+  text-shadow: 1px 1.5px 7px #7c7c7c;
 }
 
 #home a {
@@ -197,9 +221,49 @@ nav .menuNav li a:hover {
   margin-bottom: 50px;
   border: 2px solid #181818;
   padding: 10px 20px;
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+}
+
+#home a:hover {
+  color: #d5d5d5;
+  background-color: #181818;
+  border: 2px solid transparent;
 }
 
 #about {
+  position: relative;
+  min-height: 100vh;
+  /* background-color: $negro; */
+  background-image: url("../media/elenco/fondo-about.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  /*     justify-content: center;
+    align-items: center; */
+}
+
+#about a {
+  text-decoration: none;
+  color: #d5d5d5;
+  line-height: 1.5;
+  font-size: 4.6rem;
+  font-weight: 600;
+  color: #d5d5d5;
+  text-shadow: 1px 1.5px 10px #7c7c7c;
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+  padding: 10px 14px;
+}
+
+#about a:hover {
+  text-shadow: 1px 2px 20px #7c7c7c;
+}
+
+#contact {
   min-height: 100vh;
   background-color: #181818;
 }

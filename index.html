@@ -16,7 +16,7 @@
         <title>Argento Tango</title>
     </head>
     <body>
-        <header>
+        <header id="portada">
             <img
                 class="mobile"
                 src="media/LOGO-TRANSPARENTE-BLANCO.png"
@@ -39,8 +39,13 @@
             <div class="contenedor">
                 <img src="media/menuu.svg" id="hamb" alt="menu" />
                 <ul class="menuNav" id="menu">
-                    <li><a class="item" href="#home">Home</a></li>
-                    <li><a class="item" href="#about">About Us</a></li>
+                    <li><a class="item" href="#portada">Home</a></li>
+                    <li>
+                        <a class="item" href="pages/about-us.html">About Us</a>
+                    </li>
+                    <li>
+                        <a class="item" href="pages/gallery.html">Gallery</a>
+                    </li>
                     <!-- <li><a href="#show">Showtime</a></li> -->
                     <li><a class="item" href="#contact">Contact</a></li>
                 </ul>
@@ -50,20 +55,107 @@
         <main id="home">
             <section class="contenedor">
                 <div class="homeInfo">
-                    <p>
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                        Fugiat eaque iure omnis, ullam facere commodi quibusdam
-                        labore nam excepturi explicabo harum sint. Maiores ullam
-                        soluta provident quia neque rem rerum. Lorem ipsum dolor
-                        sit amet consectetur adipisicing elit. Fugiat eaque iure
-                        omnis, ullam facere commodi quibusdam labore nam
-                        excepturi explicabo harum sint. Maiores ullam soluta
-                        provident quia neque rem rerum.
-                    </p>
-                    <a href="">Button</a>
+                    <div class="container">
+                        <div class="row">
+                            <div
+                                class="
+                                    col-lg-6
+                                    d-flex
+                                    justify-content-start
+                                    p-0
+                                "
+                            >
+                                <div
+                                    id="carouselExampleFade"
+                                    class="carousel slide carousel-fade w-75"
+                                    data-ride="carousel"
+                                >
+                                    <div class="carousel-inner">
+                                        <div
+                                            class="carousel-item active"
+                                            data-interval="4000"
+                                        >
+                                            <img
+                                                src="media/elenco/elenco-1.jpg"
+                                                class="d-block w-100"
+                                                alt="..."
+                                            />
+                                        </div>
+                                        <div
+                                            class="carousel-item"
+                                            data-interval="4000"
+                                        >
+                                            <img
+                                                src="media/elenco/elenco-2.jpg"
+                                                class="d-block w-100"
+                                                alt="..."
+                                            />
+                                        </div>
+                                        <div
+                                            class="carousel-item"
+                                            data-interval="4000"
+                                        >
+                                            <img
+                                                src="media/elenco/elenco-3.jpg"
+                                                class="d-block w-100"
+                                                alt="..."
+                                            />
+                                        </div>
+                                        <div
+                                            class="carousel-item"
+                                            data-interval="4000"
+                                        >
+                                            <img
+                                                src="media/elenco/elenco-4.jpg"
+                                                class="d-block w-100"
+                                                alt="..."
+                                            />
+                                        </div>
+                                        <div
+                                            class="carousel-item"
+                                            data-interval="4000"
+                                        >
+                                            <img
+                                                src="media/elenco/elenco-5.jpg"
+                                                class="d-block w-100"
+                                                alt="..."
+                                            />
+                                        </div>
+                                        <div
+                                            class="carousel-item"
+                                            data-interval="4000"
+                                        >
+                                            <img
+                                                src="media/elenco/elenco-6.jpg"
+                                                class="d-block w-100"
+                                                alt="..."
+                                            />
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div
+                                class="
+                                    col-lg-6
+                                    d-flex
+                                    justify-content-center
+                                    align-items-center
+                                "
+                            >
+                                <div>
+                                    <div class="introHome">
+                                        <h2>VIVI UNA</h2>
+                                        <h3>EXPERIENCIA UNICA</h3>
+                                        <h4>CON NOSOTROS</h4>
+                                    </div>
+                                    <a href="pages/about-us.html">Conocenos</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </section>
-            <svg
+            <!--            <svg
                 class="waveDown"
                 preserveAspectRatio="none"
                 xmlns="http://www.w3.org/2000/svg"
@@ -74,10 +166,43 @@
                     fill-opacity="1"
                     d="M0,96L120,128C240,160,480,224,720,208C960,192,1200,96,1320,48L1440,0L1440,320L1320,320C1200,320,960,320,720,320C480,320,240,320,120,320L0,320Z"
                 ></path>
-            </svg>
+            </svg> -->
         </main>
-        <!-- ABOUT US -->
-        <section id="about"></section>
+        <!-- GALLERY -->
+        <section id="about">
+            <div
+                class="
+                    container
+                    d-flex
+                    justify-content-center
+                    align-items-center
+                    contenedor
+                "
+            >
+                <div
+                    class="
+                        row
+                        justify-content-center
+                        align-items-center
+                        contenedorAbout
+                    "
+                >
+                    <div
+                        class="
+                            col-lg-12
+                            d-flex
+                            justify-content-center
+                            align-items-center
+                        "
+                    >
+                        <a href="pages/gallery.html">GALLERY</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <footer id="contact">
+            <h5>CONTACTO</h5>
+        </footer>
         <!-- SCRIPT BOOTSTRAP -->
         <script
             src="https://code.jquery.com/jquery-3.5.1.slim.min.js"

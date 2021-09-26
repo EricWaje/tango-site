@@ -1,7 +1,12 @@
 /* HOME */
 
 #home {
-    min-height: 90vh;
+    background-image: url('../media/Huellita.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    min-height: 94vh;
+    padding: 100px 0px 80px 0px;
     position: relative;
     display: flex;
     flex-direction: column;
@@ -14,21 +19,29 @@
         flex-direction: column;
         justify-content: center;
         align-items: center;
+        .introHome {
+            h2 {
+                color: $negro;
+                font-size: 4rem;
+                font-weight: 300;
+                text-shadow: 1px 1.5px 7px $grisUno;
+            }
+            h3 {
+                color: $negro;
+                font-size: 5rem;
+                font-weight: 700;
+                text-shadow: 1px 1.5px 7px $grisUno;
+            }
+            h4 {
+                color: $negro;
+                font-size: 3.5rem;
+                font-weight: 400;
+                margin-bottom: 55px;
+                text-shadow: 1px 1.5px 7px $grisUno;
+            }
+        }
     }
-    .waveDown {
-        position: absolute;
-        bottom: 0;
-        height: 150px;
-        width: 100%;
-    }
-    p {
-        padding-top: 30px;
-        font-size: 1.8rem;
-        text-align: center;
-        font-weight: 500;
-        line-height: 1.6;
-        color: $negro;
-    }
+
     a {
         font-size: 1.8rem;
         text-decoration: none;
@@ -38,5 +51,11 @@
         margin-bottom: 50px;
         border: 2px solid $negro;
         padding: 10px 20px;
+        transition: all 0.3s ease-in-out;
+        &:hover {
+            color: $grisTres;
+            background-color: $negro;
+            border: 2px solid transparent;
+        }
     }
 }

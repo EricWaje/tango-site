@@ -1,4 +1,26 @@
 #about {
+    position: relative;
     min-height: 100vh;
-    background-color: $negro;
+    /* background-color: $negro; */
+    background-image: url('../media/elenco/fondo-about.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    /*     justify-content: center;
+    align-items: center; */
+    a {
+        text-decoration: none;
+        color: $grisTres;
+        line-height: 1.5;
+        font-size: 4.6rem;
+        font-weight: 600;
+        color: $grisTres;
+        text-shadow: 1px 1.5px 10px $grisUno;
+        transition: all 0.3s ease-in-out;
+        padding: 10px 14px;
+        &:hover {
+            text-shadow: 1px 2px 20px $grisUno;
+        }
+    }
 }
