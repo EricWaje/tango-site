@@ -1,4 +1,60 @@
 #contact {
     min-height: 100vh;
     background-color: $negro;
+    padding-top: 20px 0px 20px 0px;
+
+    h2 {
+        color: $grisTres;
+        text-align: center;
+        font-size: 4rem;
+        padding: 100px 0px 20px 0px;
+    }
+    #formulario {
+        .grupoInput {
+            .inputForm {
+                color: $grisTres;
+                margin: 50px 0px;
+                font-size: 1.5rem;
+                padding: 10px 14px;
+                background-color: transparent;
+                border: none;
+                border-bottom: 2px solid $grisTres;
+                width: 100%;
+                &:focus {
+                    border-bottom: 2px solid $grisTres;
+                    outline: none;
+                    box-shadow: none;
+                }
+            }
+            .mensaje {
+                margin-top: 15px;
+                font-size: 1.5rem;
+                padding: 10px 14px;
+                color: $negro;
+                resize: none;
+                background-color: $grisTres;
+                border: none;
+                border-bottom: 2px solid $grisTres;
+                &:focus {
+                    outline: none;
+                    box-shadow: none;
+                }
+            }
+        }
+        .enviar {
+            font-size: 1.7rem;
+            text-decoration: none;
+            color: $grisTres;
+            background-color: transparent;
+            border: 2px solid $grisTres;
+            padding: 7px 30px;
+            transition: all 0.3s ease-in-out;
+            margin-top: 30px;
+            &:hover {
+                color: $negro;
+                background-color: $grisTres;
+                border: 2px solid transparent;
+            }
+        }
+    }
 }

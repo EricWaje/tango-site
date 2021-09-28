@@ -76,11 +76,21 @@ header {
 
 header a {
   margin-top: 40px;
-  font-size: 1.9rem;
+  font-size: 1.8rem;
   text-decoration: none;
+  color: #181818;
+  background-color: transparent;
+  padding: 14px 10px;
+  border: 2px solid #181818;
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+}
+
+header a:hover {
+  border: 2px solid transparent;
   color: #d5d5d5;
   background-color: #181818;
-  padding: 14px 10px;
+  text-decoration: none;
 }
 
 header .mobile {
@@ -231,10 +241,9 @@ nav .menuNav li a:hover::after {
   border: 2px solid transparent;
 }
 
-#about {
+#gallery {
   position: relative;
   min-height: 100vh;
-  /* background-color: $negro; */
   background-image: url("../media/elenco/fondo-about.png");
   background-repeat: no-repeat;
   background-position: center;
@@ -242,11 +251,9 @@ nav .menuNav li a:hover::after {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  /*     justify-content: center;
-    align-items: center; */
 }
 
-#about a {
+#gallery a {
   text-decoration: none;
   color: #d5d5d5;
   line-height: 1.5;
@@ -259,13 +266,137 @@ nav .menuNav li a:hover::after {
   padding: 10px 14px;
 }
 
-#about a:hover {
+#gallery a:hover {
   text-shadow: 1px 2px 20px #7c7c7c;
 }
 
 #contact {
   min-height: 100vh;
   background-color: #181818;
+  padding-top: 20px 0px 20px 0px;
+}
+
+#contact h2 {
+  color: #d5d5d5;
+  text-align: center;
+  font-size: 4rem;
+  padding: 100px 0px 20px 0px;
+}
+
+#contact #formulario .grupoInput .inputForm {
+  color: #d5d5d5;
+  margin: 50px 0px;
+  font-size: 1.5rem;
+  padding: 10px 14px;
+  background-color: transparent;
+  border: none;
+  border-bottom: 2px solid #d5d5d5;
+  width: 100%;
+}
+
+#contact #formulario .grupoInput .inputForm:focus {
+  border-bottom: 2px solid #d5d5d5;
+  outline: none;
+  -webkit-box-shadow: none;
+          box-shadow: none;
+}
+
+#contact #formulario .grupoInput .mensaje {
+  margin-top: 15px;
+  font-size: 1.5rem;
+  padding: 10px 14px;
+  color: #181818;
+  resize: none;
+  background-color: #d5d5d5;
+  border: none;
+  border-bottom: 2px solid #d5d5d5;
+}
+
+#contact #formulario .grupoInput .mensaje:focus {
+  outline: none;
+  -webkit-box-shadow: none;
+          box-shadow: none;
+}
+
+#contact #formulario .enviar {
+  font-size: 1.7rem;
+  text-decoration: none;
+  color: #d5d5d5;
+  background-color: transparent;
+  border: 2px solid #d5d5d5;
+  padding: 7px 30px;
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+  margin-top: 30px;
+}
+
+#contact #formulario .enviar:hover {
+  color: #181818;
+  background-color: #d5d5d5;
+  border: 2px solid transparent;
+}
+
+footer {
+  background-color: #d5d5d5;
+  padding: 20px 0px;
+}
+
+footer .contenedorFooter {
+  height: 150px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+footer .contenedorFooter div {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+footer .contenedorFooter div a {
+  margin: 0px;
+  padding: 0px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+footer .contenedorFooter div a img {
+  width: 30px;
+  margin: 0px 15px;
+}
+
+footer .contenedorFooter h3 {
+  color: #181818;
+}
+
+footer .contenedorFooter h6 {
+  font-size: 1.5rem;
+  font-weight: 300;
 }
 
 @media (max-width: 512px) {

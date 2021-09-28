@@ -1,14 +1,11 @@
-#about {
+#gallery {
     position: relative;
     min-height: 100vh;
-    /* background-color: $negro; */
     background-image: url('../media/elenco/fondo-about.png');
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
     display: flex;
-    /*     justify-content: center;
-    align-items: center; */
     a {
         text-decoration: none;
         color: $grisTres;
