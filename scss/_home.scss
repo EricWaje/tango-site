@@ -19,6 +19,10 @@
         flex-direction: column;
         justify-content: center;
         align-items: center;
+        .contenedorCarousel {
+            display: flex;
+            justify-content: flex-start;
+        }
         .introHome {
             h2 {
                 color: $negro;

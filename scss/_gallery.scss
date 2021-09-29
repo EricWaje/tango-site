@@ -16,8 +16,18 @@
         text-shadow: 1px 1.5px 10px $grisUno;
         transition: all 0.3s ease-in-out;
         padding: 10px 14px;
+        animation: titila 1.2s infinite alternate;
         &:hover {
             text-shadow: 1px 2px 20px $grisUno;
         }
+    }
+}
+
+@keyframes titila {
+    0% {
+        text-shadow: 1px 1.5px 10px $grisUno;
+    }
+    100% {
+        text-shadow: 1px 2px 20px $grisUno;
     }
 }

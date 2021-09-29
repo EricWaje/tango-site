@@ -200,6 +200,15 @@ nav .menuNav li a:hover::after {
           align-items: center;
 }
 
+#home .homeInfo .contenedorCarousel {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+}
+
 #home .homeInfo .introHome h2 {
   color: #181818;
   font-size: 4rem;
@@ -264,10 +273,30 @@ nav .menuNav li a:hover::after {
   -webkit-transition: all 0.3s ease-in-out;
   transition: all 0.3s ease-in-out;
   padding: 10px 14px;
+  -webkit-animation: titila 1.2s infinite alternate;
+          animation: titila 1.2s infinite alternate;
 }
 
 #gallery a:hover {
   text-shadow: 1px 2px 20px #7c7c7c;
+}
+
+@-webkit-keyframes titila {
+  0% {
+    text-shadow: 1px 1.5px 10px #7c7c7c;
+  }
+  100% {
+    text-shadow: 1px 2px 20px #7c7c7c;
+  }
+}
+
+@keyframes titila {
+  0% {
+    text-shadow: 1px 1.5px 10px #7c7c7c;
+  }
+  100% {
+    text-shadow: 1px 2px 20px #7c7c7c;
+  }
 }
 
 #contact {
@@ -392,6 +421,7 @@ footer .contenedorFooter div a img {
 
 footer .contenedorFooter h3 {
   color: #181818;
+  font-weight: 400;
 }
 
 footer .contenedorFooter h6 {
@@ -502,6 +532,32 @@ footer .contenedorFooter h6 {
   #home .waveDown {
     height: 30px;
     width: 100%;
+  }
+  #home .homeInfo .contenedorCarousel {
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    margin-bottom: 30px;
+  }
+  #home .homeInfo .introHome h2,
+  #home .homeInfo .introHome h3,
+  #home .homeInfo .introHome h4 {
+    text-align: center;
+  }
+  #home a {
+    text-align: center;
+    display: block;
+    width: 50%;
+    margin: 0 auto;
+  }
+  /* GALLERY */
+  #gallery {
+    background-image: url("../media/elenco/fondo-about.png");
+    background-position: 52%;
+  }
+  /* CONTACT */
+  #formulario {
+    padding: 0px 20px 50px 20px;
   }
 }
 /*# sourceMappingURL=estilos.css.map */
