@@ -160,7 +160,7 @@ nav .menuNav li a:hover::after {
 
 /* HOME */
 #home {
-  background-image: url("../media/huellita.png");
+  background-image: url("../media/fondoHome.png");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
