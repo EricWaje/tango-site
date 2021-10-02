@@ -10,7 +10,6 @@ const comentarios = document.getElementById('textArea');
 
 const items = document.getElementsByClassName('item');
 for (let i = 0; i < items.length; i++) {
-    console.log(items[i]);
     items[i].addEventListener('click', () => {
         menu.classList.remove('active');
     });
@@ -73,8 +72,8 @@ const exito = () => {
 };
 
 const start = () => {
-    btn.addEventListener('click', sendEmail);
     hamb.addEventListener('click', mostrarMenu);
+    btn.addEventListener('click', sendEmail);
 };
 
 window.onload = start;
