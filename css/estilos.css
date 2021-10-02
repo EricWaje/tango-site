@@ -310,6 +310,17 @@ nav .menuNav li a:hover::after {
   display: grid;
       grid-template-areas: 'fotoDoce fotoDoce fotoDiez' 'fotoUno fotoDos fotoTres' 'fotoUno fotoOnce fotoSeis' 'fotoNueve fotoOcho fotoOcho' 'fotoCuatro fotoCuatro fotoCinco' 'fotoTrece fotoCatorce fotoQuince';
   gap: 0.2rem;
+  /* .fotoSiete {
+        grid-area: fotoSiete;
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        filter: brightness(60%);
+        transition: all 0.3s ease-in-out;
+        &:hover {
+            filter: brightness(100%);
+        }
+    } */
 }
 
 .grilla .fotoUno {
@@ -424,23 +435,6 @@ nav .menuNav li a:hover::after {
 }
 
 .grilla .fotoSeis:hover {
-  -webkit-filter: brightness(100%);
-          filter: brightness(100%);
-}
-
-.grilla .fotoSiete {
-  grid-area: fotoSiete;
-  width: 100%;
-  height: 100%;
-  -o-object-fit: cover;
-     object-fit: cover;
-  -webkit-filter: brightness(60%);
-          filter: brightness(60%);
-  -webkit-transition: all 0.3s ease-in-out;
-  transition: all 0.3s ease-in-out;
-}
-
-.grilla .fotoSiete:hover {
   -webkit-filter: brightness(100%);
           filter: brightness(100%);
 }
@@ -865,6 +859,22 @@ footer .contenedorFooter h6 {
     display: grid;
         grid-template-areas: 'fotoUno' 'fotoDos' 'fotoTres' 'fotoCuatro' 'fotoCinco' 'fotoSeis' 'fotoSiete' 'fotoOcho' 'fotoNueve' 'fotoDiez' 'fotoOnce' 'fotoDoce' 'fotoTrece' 'fotoCatorce' 'fotoQuince';
     gap: 0.1rem;
+  }
+  .grilla .fotoUno,
+  .grilla .fotoDos,
+  .grilla .fotoTres,
+  .grilla .fotoCuatro,
+  .grilla .fotoCinco,
+  .grilla .fotoSeis,
+  .grilla .fotoOcho,
+  .grilla .fotoNueve,
+  .grilla .fotoDiez,
+  .grilla .fotoOnce,
+  .grilla .fotoDoce,
+  .grilla .fotoTrece,
+  .grilla .fotoCatorce,
+  .grilla .fotoQuince {
+    width: 100%;
   }
 }
 /*# sourceMappingURL=estilos.css.map */

@@ -139,5 +139,21 @@
             'fotoCatorce'
             'fotoQuince';
         gap: 0.1rem;
+        .fotoUno,
+        .fotoDos,
+        .fotoTres,
+        .fotoCuatro,
+        .fotoCinco,
+        .fotoSeis,
+        .fotoOcho,
+        .fotoNueve,
+        .fotoDiez,
+        .fotoOnce,
+        .fotoDoce,
+        .fotoTrece,
+        .fotoCatorce,
+        .fotoQuince {
+            width: 100%;
+        }
     }
 }
