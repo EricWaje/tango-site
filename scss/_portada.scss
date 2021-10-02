@@ -5,28 +5,32 @@ header {
     justify-content: center;
     align-items: center;
     min-height: 100vh;
-    background-image: url('https://via.placeholder.com/1920');
+    background-image: url('../media/portada/tef-salto.jpg');
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
-    animation: slide 5s infinite linear alternate;
+    animation: slide 25s infinite linear alternate;
 }
 
 @keyframes slide {
     0% {
-        background-image: url('https://via.placeholder.com/1930');
+        background-image: url('../media/portada/leo-ceci-portada.jpg');
     }
 
     25% {
-        background-image: url('https://via.placeholder.com/1940');
+        background-image: url('../media/portada/luis-leo-salto.jpg');
     }
 
     50% {
-        background-image: url('https://via.placeholder.com/1950');
+        background-image: url('../media/portada/luis-lu-silla.jpg');
     }
 
     75% {
-        background-image: url('https://via.placeholder.com/1960');
+        background-image: url('../media/portada/luis-silla.jpg');
+    }
+
+    100% {
+        background-image: url('../media/portada/tef-salto.jpg');
     }
 }
 

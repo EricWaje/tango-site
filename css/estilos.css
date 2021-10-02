@@ -36,41 +36,47 @@ header {
       -ms-flex-align: center;
           align-items: center;
   min-height: 100vh;
-  background-image: url("https://via.placeholder.com/1920");
+  background-image: url("../media/portada/tef-salto.jpg");
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
-  -webkit-animation: slide 5s infinite linear alternate;
-          animation: slide 5s infinite linear alternate;
+  -webkit-animation: slide 25s infinite linear alternate;
+          animation: slide 25s infinite linear alternate;
 }
 
 @-webkit-keyframes slide {
   0% {
-    background-image: url("https://via.placeholder.com/1930");
+    background-image: url("../media/portada/leo-ceci-portada.jpg");
   }
   25% {
-    background-image: url("https://via.placeholder.com/1940");
+    background-image: url("../media/portada/luis-leo-salto.jpg");
   }
   50% {
-    background-image: url("https://via.placeholder.com/1950");
+    background-image: url("../media/portada/luis-lu-silla.jpg");
   }
   75% {
-    background-image: url("https://via.placeholder.com/1960");
+    background-image: url("../media/portada/luis-silla.jpg");
+  }
+  100% {
+    background-image: url("../media/portada/tef-salto.jpg");
   }
 }
 
 @keyframes slide {
   0% {
-    background-image: url("https://via.placeholder.com/1930");
+    background-image: url("../media/portada/leo-ceci-portada.jpg");
   }
   25% {
-    background-image: url("https://via.placeholder.com/1940");
+    background-image: url("../media/portada/luis-leo-salto.jpg");
   }
   50% {
-    background-image: url("https://via.placeholder.com/1950");
+    background-image: url("../media/portada/luis-lu-silla.jpg");
   }
   75% {
-    background-image: url("https://via.placeholder.com/1960");
+    background-image: url("../media/portada/luis-silla.jpg");
+  }
+  100% {
+    background-image: url("../media/portada/tef-salto.jpg");
   }
 }
 
@@ -253,7 +259,7 @@ nav .menuNav li a:hover::after {
 #gallery {
   position: relative;
   min-height: 100vh;
-  background-image: url("../media/elenco/fondo-about.png");
+  background-image: url("../media/elenco/fondo-juntos.png");
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -297,6 +303,243 @@ nav .menuNav li a:hover::after {
   100% {
     text-shadow: 1px 2px 20px #7c7c7c;
   }
+}
+
+.grilla {
+  display: -ms-grid;
+  display: grid;
+      grid-template-areas: 'fotoDoce fotoDoce fotoDiez' 'fotoUno fotoDos fotoTres' 'fotoUno fotoOnce fotoSeis' 'fotoNueve fotoOcho fotoOcho' 'fotoCuatro fotoCuatro fotoCinco';
+  gap: 0.2rem;
+}
+
+.grilla .fotoUno {
+  -ms-grid-row: 2;
+  -ms-grid-row-span: 2;
+  -ms-grid-column: 1;
+  grid-area: fotoUno;
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  -webkit-filter: brightness(60%);
+          filter: brightness(60%);
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+}
+
+.grilla .fotoUno:hover {
+  -webkit-filter: brightness(100%);
+          filter: brightness(100%);
+}
+
+.grilla .fotoDos {
+  -ms-grid-row: 2;
+  -ms-grid-column: 2;
+  grid-area: fotoDos;
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  -webkit-filter: brightness(60%);
+          filter: brightness(60%);
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+}
+
+.grilla .fotoDos:hover {
+  -webkit-filter: brightness(100%);
+          filter: brightness(100%);
+}
+
+.grilla .fotoTres {
+  -ms-grid-row: 2;
+  -ms-grid-column: 3;
+  grid-area: fotoTres;
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  -webkit-filter: brightness(60%);
+          filter: brightness(60%);
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+}
+
+.grilla .fotoTres:hover {
+  -webkit-filter: brightness(100%);
+          filter: brightness(100%);
+}
+
+.grilla .fotoCuatro {
+  -ms-grid-row: 5;
+  -ms-grid-column: 1;
+  -ms-grid-column-span: 2;
+  grid-area: fotoCuatro;
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  -webkit-filter: brightness(60%);
+          filter: brightness(60%);
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+}
+
+.grilla .fotoCuatro:hover {
+  -webkit-filter: brightness(100%);
+          filter: brightness(100%);
+}
+
+.grilla .fotoCinco {
+  -ms-grid-row: 5;
+  -ms-grid-column: 3;
+  grid-area: fotoCinco;
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  -webkit-filter: brightness(60%);
+          filter: brightness(60%);
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+}
+
+.grilla .fotoCinco:hover {
+  -webkit-filter: brightness(100%);
+          filter: brightness(100%);
+}
+
+.grilla .fotoSeis {
+  -ms-grid-row: 3;
+  -ms-grid-column: 3;
+  grid-area: fotoSeis;
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  -webkit-filter: brightness(60%);
+          filter: brightness(60%);
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+}
+
+.grilla .fotoSeis:hover {
+  -webkit-filter: brightness(100%);
+          filter: brightness(100%);
+}
+
+.grilla .fotoSiete {
+  grid-area: fotoSiete;
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  -webkit-filter: brightness(60%);
+          filter: brightness(60%);
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+}
+
+.grilla .fotoSiete:hover {
+  -webkit-filter: brightness(100%);
+          filter: brightness(100%);
+}
+
+.grilla .fotoOcho {
+  -ms-grid-row: 4;
+  -ms-grid-column: 2;
+  -ms-grid-column-span: 2;
+  grid-area: fotoOcho;
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  -webkit-filter: brightness(60%);
+          filter: brightness(60%);
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+}
+
+.grilla .fotoOcho:hover {
+  -webkit-filter: brightness(100%);
+          filter: brightness(100%);
+}
+
+.grilla .fotoNueve {
+  -ms-grid-row: 4;
+  -ms-grid-column: 1;
+  grid-area: fotoNueve;
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  -webkit-filter: brightness(60%);
+          filter: brightness(60%);
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+}
+
+.grilla .fotoNueve:hover {
+  -webkit-filter: brightness(100%);
+          filter: brightness(100%);
+}
+
+.grilla .fotoDiez {
+  -ms-grid-row: 1;
+  -ms-grid-column: 3;
+  grid-area: fotoDiez;
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  -webkit-filter: brightness(60%);
+          filter: brightness(60%);
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+}
+
+.grilla .fotoDiez:hover {
+  -webkit-filter: brightness(100%);
+          filter: brightness(100%);
+}
+
+.grilla .fotoOnce {
+  -ms-grid-row: 3;
+  -ms-grid-column: 2;
+  grid-area: fotoOnce;
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  -webkit-filter: brightness(60%);
+          filter: brightness(60%);
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+}
+
+.grilla .fotoOnce:hover {
+  -webkit-filter: brightness(100%);
+          filter: brightness(100%);
+}
+
+.grilla .fotoDoce {
+  -ms-grid-row: 1;
+  -ms-grid-column: 1;
+  -ms-grid-column-span: 2;
+  grid-area: fotoDoce;
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  -webkit-filter: brightness(60%);
+          filter: brightness(60%);
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+}
+
+.grilla .fotoDoce:hover {
+  -webkit-filter: brightness(100%);
+          filter: brightness(100%);
 }
 
 #contact {
@@ -434,8 +677,8 @@ footer .contenedorFooter h6 {
     margin: 0px 5%;
   }
   header {
-    background-image: -webkit-gradient(linear, left top, left bottom, from(#000000d9), to(#181818)), url("../media/footprint-10.svg") !important;
-    background-image: linear-gradient(to bottom, #000000d9, #181818), url("../media/footprint-10.svg") !important;
+    background-image: -webkit-gradient(linear, left top, left bottom, from(#000000d9), to(#181818)), url("../media/huella-20.svg") !important;
+    background-image: linear-gradient(to bottom, #000000d9, #181818), url("../media/huella-20.svg") !important;
   }
   header .mobile {
     display: block;
