@@ -23,6 +23,7 @@ nav {
             margin-left: 15px;
             text-decoration: none;
             transition: all 0.3s ease-in-out;
+            font-weight: 300;
             &::after {
                 content: '';
                 position: absolute;
@@ -36,6 +37,9 @@ nav {
             &:hover::after {
                 width: 100%;
             }
+        }
+        .pagActive {
+            font-weight: 700;
         }
     }
 }

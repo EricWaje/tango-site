@@ -171,6 +171,7 @@ nav .menuNav li a {
   text-decoration: none;
   -webkit-transition: all 0.3s ease-in-out;
   transition: all 0.3s ease-in-out;
+  font-weight: 300;
 }
 
 nav .menuNav li a::after {
@@ -188,6 +189,10 @@ nav .menuNav li a::after {
 
 nav .menuNav li a:hover::after {
   width: 100%;
+}
+
+nav .menuNav li .pagActive {
+  font-weight: 700;
 }
 
 #hamb {
