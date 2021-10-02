@@ -119,4 +119,25 @@
     #formulario {
         padding: 0px 20px 50px 20px;
     }
+    /* GALERIA DE IMAGENES */
+    .grilla {
+        display: grid;
+        grid-template-areas:
+            'fotoUno'
+            'fotoDos'
+            'fotoTres'
+            'fotoCuatro'
+            'fotoCinco'
+            'fotoSeis'
+            'fotoSiete'
+            'fotoOcho'
+            'fotoNueve'
+            'fotoDiez'
+            'fotoOnce'
+            'fotoDoce'
+            'fotoTrece'
+            'fotoCatorce'
+            'fotoQuince';
+        gap: 0.1rem;
+    }
 }

@@ -5,7 +5,8 @@
         'fotoUno fotoDos fotoTres'
         'fotoUno fotoOnce fotoSeis'
         'fotoNueve fotoOcho fotoOcho'
-        'fotoCuatro fotoCuatro fotoCinco';
+        'fotoCuatro fotoCuatro fotoCinco'
+        'fotoTrece fotoCatorce fotoQuince';
     gap: 0.2rem;
 
     .fotoUno {
@@ -131,6 +132,39 @@
     }
     .fotoDoce {
         grid-area: fotoDoce;
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        filter: brightness(60%);
+        transition: all 0.3s ease-in-out;
+        &:hover {
+            filter: brightness(100%);
+        }
+    }
+    .fotoTrece {
+        grid-area: fotoTrece;
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        filter: brightness(60%);
+        transition: all 0.3s ease-in-out;
+        &:hover {
+            filter: brightness(100%);
+        }
+    }
+    .fotoCatorce {
+        grid-area: fotoCatorce;
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        filter: brightness(60%);
+        transition: all 0.3s ease-in-out;
+        &:hover {
+            filter: brightness(100%);
+        }
+    }
+    .fotoQuince {
+        grid-area: fotoQuince;
         width: 100%;
         height: 100%;
         object-fit: cover;
