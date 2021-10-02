@@ -10,6 +10,10 @@ header {
     background-position: center;
     background-size: cover;
     animation: slide 15s infinite linear alternate;
+    .mobile {
+        width: 312px;
+        margin-top: 45px;
+    }
 }
 
 @keyframes slide {
@@ -50,19 +54,19 @@ header a {
     margin-top: 40px;
     font-size: 1.8rem;
     text-decoration: none;
-    color: $negro;
+    color: $grisTres;
     background-color: transparent;
     padding: 14px 10px;
-    border: 2px solid $negro;
+    border: 2px solid $grisTres;
     transition: all 0.3s ease-in-out;
     &:hover {
         border: 2px solid transparent;
-        color: $grisTres;
-        background-color: $negro;
+        color: $negro;
+        background-color: $grisTres;
         text-decoration: none;
     }
 }
 
-header .mobile {
+/* header .mobile {
     display: none;
-}
+} */

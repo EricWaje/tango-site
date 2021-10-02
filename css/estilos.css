@@ -44,6 +44,11 @@ header {
           animation: slide 15s infinite linear alternate;
 }
 
+header .mobile {
+  width: 312px;
+  margin-top: 45px;
+}
+
 @-webkit-keyframes slide {
   0% {
     background-image: url("../media/portada/leo-ceci-portada.png");
@@ -114,25 +119,24 @@ header a {
   margin-top: 40px;
   font-size: 1.8rem;
   text-decoration: none;
-  color: #181818;
+  color: #d5d5d5;
   background-color: transparent;
   padding: 14px 10px;
-  border: 2px solid #181818;
+  border: 2px solid #d5d5d5;
   -webkit-transition: all 0.3s ease-in-out;
   transition: all 0.3s ease-in-out;
 }
 
 header a:hover {
   border: 2px solid transparent;
-  color: #d5d5d5;
-  background-color: #181818;
+  color: #181818;
+  background-color: #d5d5d5;
   text-decoration: none;
 }
 
-header .mobile {
-  display: none;
-}
-
+/* header .mobile {
+    display: none;
+} */
 /* NAV */
 nav {
   display: -webkit-box;
@@ -760,12 +764,12 @@ footer .contenedorFooter h6 {
 
 @media (max-width: 512px) {
   .contenedor {
-    margin: 0px 5%;
+    margin: 0px 4%;
   }
-  header {
-    background-image: -webkit-gradient(linear, left top, left bottom, from(#000000d9), to(#181818)), url("../media/huella-20.svg") !important;
-    background-image: linear-gradient(to bottom, #000000d9, #181818), url("../media/huella-20.svg") !important;
-  }
+  /*     header {
+        background-image: linear-gradient(to bottom, #000000d9, #181818),
+            url('../media/huella-20.svg') !important;
+    } */
   header .mobile {
     display: block;
     width: 300px;
