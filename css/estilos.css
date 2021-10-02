@@ -36,47 +36,77 @@ header {
       -ms-flex-align: center;
           align-items: center;
   min-height: 100vh;
-  background-image: url("../media/portada/tef-salto.jpg");
+  background-image: url("../media/portada/tef-salto.png");
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
-  -webkit-animation: slide 25s infinite linear alternate;
-          animation: slide 25s infinite linear alternate;
+  -webkit-animation: slide 15s infinite linear alternate;
+          animation: slide 15s infinite linear alternate;
 }
 
 @-webkit-keyframes slide {
   0% {
-    background-image: url("../media/portada/leo-ceci-portada.jpg");
+    background-image: url("../media/portada/leo-ceci-portada.png");
   }
-  25% {
-    background-image: url("../media/portada/luis-leo-salto.jpg");
+  15% {
+    background-image: url("../media/portada/leo-ceci-portada.png");
   }
-  50% {
-    background-image: url("../media/portada/luis-lu-silla.jpg");
+  20% {
+    background-image: url("../media/portada/luis-leo-salto.png");
+  }
+  35% {
+    background-image: url("../media/portada/luis-leo-salto.png");
+  }
+  40% {
+    background-image: url("../media/portada/luis-lu-silla.png");
+  }
+  55% {
+    background-image: url("../media/portada/luis-lu-silla.png");
+  }
+  60% {
+    background-image: url("../media/portada/luis-silla.png");
   }
   75% {
-    background-image: url("../media/portada/luis-silla.jpg");
+    background-image: url("../media/portada/luis-silla.png");
+  }
+  80% {
+    background-image: url("../media/portada/tef-salto.png");
   }
   100% {
-    background-image: url("../media/portada/tef-salto.jpg");
+    background-image: url("../media/portada/tef-salto.png");
   }
 }
 
 @keyframes slide {
   0% {
-    background-image: url("../media/portada/leo-ceci-portada.jpg");
+    background-image: url("../media/portada/leo-ceci-portada.png");
   }
-  25% {
-    background-image: url("../media/portada/luis-leo-salto.jpg");
+  15% {
+    background-image: url("../media/portada/leo-ceci-portada.png");
   }
-  50% {
-    background-image: url("../media/portada/luis-lu-silla.jpg");
+  20% {
+    background-image: url("../media/portada/luis-leo-salto.png");
+  }
+  35% {
+    background-image: url("../media/portada/luis-leo-salto.png");
+  }
+  40% {
+    background-image: url("../media/portada/luis-lu-silla.png");
+  }
+  55% {
+    background-image: url("../media/portada/luis-lu-silla.png");
+  }
+  60% {
+    background-image: url("../media/portada/luis-silla.png");
   }
   75% {
-    background-image: url("../media/portada/luis-silla.jpg");
+    background-image: url("../media/portada/luis-silla.png");
+  }
+  80% {
+    background-image: url("../media/portada/tef-salto.png");
   }
   100% {
-    background-image: url("../media/portada/tef-salto.jpg");
+    background-image: url("../media/portada/tef-salto.png");
   }
 }
 

@@ -1,5 +1,6 @@
 const menu = document.getElementById('menu');
 const hamb = document.getElementById('hamb');
+/* const hamb = document.querySelector('.hamb'); */
 //FORM
 const btn = document.getElementById('submit');
 const form = document.getElementById('formulario');
