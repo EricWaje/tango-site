@@ -308,7 +308,7 @@ nav .menuNav li a:hover::after {
 .grilla {
   display: -ms-grid;
   display: grid;
-      grid-template-areas: 'fotoDoce fotoDoce fotoDiez' 'fotoUno fotoDos fotoTres' 'fotoUno fotoOnce fotoSeis' 'fotoNueve fotoOcho fotoOcho' 'fotoCuatro fotoCuatro fotoCinco' 'fotoTrece fotoCatorce fotoQuince';
+      grid-template-areas: 'fotoDoce fotoDoce fotoDiez' 'fotoUno fotoDos fotoTres' 'fotoUno fotoOnce fotoSeis' 'fotoNueve fotoOcho fotoOcho' 'fotoTrece fotoCatorce fotoQuince' 'fotoCuatro fotoCuatro fotoCinco';
   gap: 0.2rem;
   /* .fotoSiete {
         grid-area: fotoSiete;
@@ -382,7 +382,7 @@ nav .menuNav li a:hover::after {
 }
 
 .grilla .fotoCuatro {
-  -ms-grid-row: 5;
+  -ms-grid-row: 6;
   -ms-grid-column: 1;
   -ms-grid-column-span: 2;
   grid-area: fotoCuatro;
@@ -402,7 +402,7 @@ nav .menuNav li a:hover::after {
 }
 
 .grilla .fotoCinco {
-  -ms-grid-row: 5;
+  -ms-grid-row: 6;
   -ms-grid-column: 3;
   grid-area: fotoCinco;
   width: 100%;
@@ -537,7 +537,7 @@ nav .menuNav li a:hover::after {
 }
 
 .grilla .fotoTrece {
-  -ms-grid-row: 6;
+  -ms-grid-row: 5;
   -ms-grid-column: 1;
   grid-area: fotoTrece;
   width: 100%;
@@ -556,7 +556,7 @@ nav .menuNav li a:hover::after {
 }
 
 .grilla .fotoCatorce {
-  -ms-grid-row: 6;
+  -ms-grid-row: 5;
   -ms-grid-column: 2;
   grid-area: fotoCatorce;
   width: 100%;
@@ -575,7 +575,7 @@ nav .menuNav li a:hover::after {
 }
 
 .grilla .fotoQuince {
-  -ms-grid-row: 6;
+  -ms-grid-row: 5;
   -ms-grid-column: 3;
   grid-area: fotoQuince;
   width: 100%;
@@ -875,6 +875,9 @@ footer .contenedorFooter h6 {
   .grilla .fotoCatorce,
   .grilla .fotoQuince {
     width: 100%;
+    height: auto;
+    -o-object-fit: contain;
+       object-fit: contain;
   }
 }
 /*# sourceMappingURL=estilos.css.map */
