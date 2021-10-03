@@ -17,9 +17,17 @@ footer {
                 flex-direction: column;
                 justify-content: center;
                 align-items: center;
+                height: 50px;
+                width: 80px;
                 img {
                     width: 30px;
+                    height: 30px;
                     margin: 0px 15px;
+                    transition: all 0.3s ease-in-out;
+                    &:hover {
+                        width: 33px;
+                        height: 33px;
+                    }
                 }
             }
         }

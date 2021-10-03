@@ -1,0 +1,22 @@
+#nosotros {
+    min-height: 90vh;
+    background-image: url('../media/nosotros.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    img {
+        width: 300px;
+        display: none;
+    }
+    p {
+        color: $grisTres;
+        text-align: center;
+        font-size: 1.7rem;
+        line-height: 1.5;
+        font-weight: 300;
+        margin: 0px 30px;
+    }
+}
