@@ -344,6 +344,14 @@ nav .menuNav li .pagActive {
   }
 }
 
+h3 {
+  text-align: center;
+  padding: 20px 0px;
+  background-color: #d5d5d5;
+  margin: 0px;
+  display: none;
+}
+
 .grilla {
   display: -ms-grid;
   display: grid;
@@ -941,6 +949,9 @@ footer .contenedorFooter h6 {
     padding: 0px 20px 50px 20px;
   }
   /* GALERIA DE IMAGENES */
+  h3 {
+    display: block;
+  }
   .grilla {
     display: -ms-grid;
     display: grid;
