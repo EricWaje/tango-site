@@ -1,24 +1,78 @@
 #gallery {
-    position: relative;
-    min-height: 100vh;
-    background-image: url('../media/elenco/fondo-juntos.png');
+    min-height: 70vh;
+    background-color: $negro;
+    padding: 50px 0px;
+    /* background-image: url('../media/huella-20.svg');
     background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 100% 107%; */
+    .textoVideo {
+        color: $grisTres;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 80px 0px;
+        a {
+            font-size: 1.8rem;
+            text-decoration: none;
+            color: $grisTres;
+            background-color: transparent;
+            border: 2px solid $grisTres;
+            padding: 10px 20px;
+            transition: all 0.3s ease-in-out;
+            &:hover {
+                color: $negro;
+                background-color: $grisTres;
+                border: 2px solid transparent;
+            }
+        }
+        img {
+            width: 500px;
+        }
+        h2 {
+            font-size: 2.4rem;
+            margin-bottom: 15px;
+            font-weight: 600;
+            text-shadow: 1px 1.5px 7px $grisUno;
+        }
+        p {
+            font-size: 1.8rem;
+            font-weight: 400;
+            line-height: 1.7;
+            margin-bottom: 25px;
+        }
+    }
+}
+
+#photos {
+    background-image: url('../media/gallerySitio.png');
     background-position: center;
     background-size: cover;
+    min-height: 120vh;
     display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
     a {
+        margin-top: 50px;
         text-decoration: none;
-        color: $grisTres;
+        color: #d5d5d5;
         line-height: 1.5;
-        font-size: 4.6rem;
-        font-weight: 600;
-        color: $grisTres;
-        text-shadow: 1px 1.5px 10px $grisUno;
+        font-size: 3.5rem;
+        font-weight: 400;
+        color: #d5d5d5;
+        text-shadow: 1px 1.5px 10px #7c7c7c;
+        -webkit-transition: all 0.3s ease-in-out;
         transition: all 0.3s ease-in-out;
-        padding: 10px 14px;
+        padding: 7px 11px;
+        -webkit-animation: titila 1.2s infinite alternate;
         animation: titila 1.2s infinite alternate;
+        border: 2px solid $grisTres;
         &:hover {
-            text-shadow: 1px 2px 20px $grisUno;
+            /* color: $negro; */
+            /* background-color: $grisTres; */
+            border: 2px solid transparent;
+            box-shadow: 0px 0px 20px 1px $grisTres;
         }
     }
 }
@@ -28,6 +82,6 @@
         text-shadow: 1px 1.5px 10px $grisUno;
     }
     100% {
-        text-shadow: 1px 2px 20px $grisUno;
+        text-shadow: 3px 5px 20px $grisUno;
     }
 }

@@ -1,184 +1,196 @@
-.toca {
-    text-align: center;
-    padding: 20px 0px;
-    background-color: $grisTres;
-    margin: 0px;
-    display: none;
-}
 .grilla {
     display: grid;
     grid-template-areas:
-        'fotoDoce fotoDoce fotoDiez'
-        'fotoUno fotoDos fotoTres'
-        'fotoUno fotoOnce fotoSeis'
-        'fotoNueve fotoOcho fotoOcho'
-        'fotoTrece fotoCatorce fotoQuince'
-        'fotoCuatro fotoCuatro fotoCinco';
+        'foto-5 foto-5 foto-4'
+        'foto-19 foto-12 foto-12'
+        'foto-25 foto-25 foto-25'
+        'foto-16 foto-14 foto-26'
+        'foto-1 foto-11 foto-11'
+        'foto-9 foto-13 foto-3'
+        'foto-17 foto-17 foto-17';
     gap: 0.2rem;
 
-    .fotoUno {
-        grid-area: fotoUno;
+    .foto-1 {
+        grid-area: foto-1;
         width: 100%;
         height: 100%;
         object-fit: cover;
-        filter: brightness(60%);
         transition: all 0.3s ease-in-out;
-        &:hover {
-            filter: brightness(100%);
-        }
     }
-    .fotoDos {
-        grid-area: fotoDos;
+    .foto-2 {
+        grid-area: foto-2;
         width: 100%;
         height: 100%;
         object-fit: cover;
-        filter: brightness(60%);
         transition: all 0.3s ease-in-out;
-        &:hover {
-            filter: brightness(100%);
-        }
     }
-    .fotoTres {
-        grid-area: fotoTres;
+    .foto-3 {
+        grid-area: foto-3;
         width: 100%;
         height: 100%;
         object-fit: cover;
-        filter: brightness(60%);
         transition: all 0.3s ease-in-out;
-        &:hover {
-            filter: brightness(100%);
-        }
     }
-    .fotoCuatro {
-        grid-area: fotoCuatro;
+    .foto-4 {
+        grid-area: foto-4;
         width: 100%;
         height: 100%;
         object-fit: cover;
-        filter: brightness(60%);
         transition: all 0.3s ease-in-out;
-        &:hover {
-            filter: brightness(100%);
-        }
     }
-    .fotoCinco {
-        grid-area: fotoCinco;
+    .foto-5 {
+        grid-area: foto-5;
         width: 100%;
         height: 100%;
         object-fit: cover;
-        filter: brightness(60%);
         transition: all 0.3s ease-in-out;
-        &:hover {
-            filter: brightness(100%);
-        }
     }
-    .fotoSeis {
-        grid-area: fotoSeis;
+    .foto-6 {
+        grid-area: foto-6;
         width: 100%;
         height: 100%;
         object-fit: cover;
-        filter: brightness(60%);
         transition: all 0.3s ease-in-out;
-        &:hover {
-            filter: brightness(100%);
-        }
     }
-    /* .fotoSiete {
-        grid-area: fotoSiete;
+    .foto-7 {
+        grid-area: foto-7;
         width: 100%;
         height: 100%;
         object-fit: cover;
-        filter: brightness(60%);
         transition: all 0.3s ease-in-out;
-        &:hover {
-            filter: brightness(100%);
-        }
-    } */
-    .fotoOcho {
-        grid-area: fotoOcho;
-        width: 100%;
-        height: 100%;
-        object-fit: cover;
-        filter: brightness(60%);
-        transition: all 0.3s ease-in-out;
-        &:hover {
-            filter: brightness(100%);
-        }
     }
-    .fotoNueve {
-        grid-area: fotoNueve;
+
+    .foto-8 {
+        grid-area: foto-8;
         width: 100%;
         height: 100%;
         object-fit: cover;
-        filter: brightness(60%);
         transition: all 0.3s ease-in-out;
-        &:hover {
-            filter: brightness(100%);
-        }
     }
-    .fotoDiez {
-        grid-area: fotoDiez;
+    .foto-9 {
+        grid-area: foto-9;
         width: 100%;
         height: 100%;
         object-fit: cover;
-        filter: brightness(60%);
         transition: all 0.3s ease-in-out;
-        &:hover {
-            filter: brightness(100%);
-        }
     }
-    .fotoOnce {
-        grid-area: fotoOnce;
+    .foto-10 {
+        grid-area: foto-10;
         width: 100%;
         height: 100%;
         object-fit: cover;
-        filter: brightness(60%);
         transition: all 0.3s ease-in-out;
-        &:hover {
-            filter: brightness(100%);
-        }
     }
-    .fotoDoce {
-        grid-area: fotoDoce;
+    .foto-11 {
+        grid-area: foto-11;
         width: 100%;
         height: 100%;
         object-fit: cover;
-        filter: brightness(60%);
         transition: all 0.3s ease-in-out;
-        &:hover {
-            filter: brightness(100%);
-        }
     }
-    .fotoTrece {
-        grid-area: fotoTrece;
+    .foto-12 {
+        grid-area: foto-12;
         width: 100%;
         height: 100%;
         object-fit: cover;
-        filter: brightness(60%);
         transition: all 0.3s ease-in-out;
-        &:hover {
-            filter: brightness(100%);
-        }
     }
-    .fotoCatorce {
-        grid-area: fotoCatorce;
+    .foto-13 {
+        grid-area: foto-13;
         width: 100%;
         height: 100%;
         object-fit: cover;
-        filter: brightness(60%);
         transition: all 0.3s ease-in-out;
-        &:hover {
-            filter: brightness(100%);
-        }
     }
-    .fotoQuince {
-        grid-area: fotoQuince;
+    .foto-14 {
+        grid-area: foto-14;
         width: 100%;
         height: 100%;
         object-fit: cover;
-        filter: brightness(60%);
         transition: all 0.3s ease-in-out;
-        &:hover {
-            filter: brightness(100%);
-        }
+    }
+    .foto-15 {
+        grid-area: foto-15;
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        transition: all 0.3s ease-in-out;
+    }
+    .foto-16 {
+        grid-area: foto-16;
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        transition: all 0.3s ease-in-out;
+    }
+    .foto-17 {
+        grid-area: foto-17;
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        transition: all 0.3s ease-in-out;
+    }
+    .foto-18 {
+        grid-area: foto-18;
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        transition: all 0.3s ease-in-out;
+    }
+    .foto-19 {
+        grid-area: foto-19;
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        transition: all 0.3s ease-in-out;
+    }
+    .foto-20 {
+        grid-area: foto-20;
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        transition: all 0.3s ease-in-out;
+    }
+    .foto-21 {
+        grid-area: foto-21;
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        transition: all 0.3s ease-in-out;
+    }
+    .foto-22 {
+        grid-area: foto-22;
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        transition: all 0.3s ease-in-out;
+    }
+    .foto-23 {
+        grid-area: foto-23;
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        transition: all 0.3s ease-in-out;
+    }
+    .foto-24 {
+        grid-area: foto-24;
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        transition: all 0.3s ease-in-out;
+    }
+    .foto-25 {
+        grid-area: foto-25;
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        transition: all 0.3s ease-in-out;
+    }
+    .foto-26 {
+        grid-area: foto-26;
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        transition: all 0.3s ease-in-out;
     }
 }

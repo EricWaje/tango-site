@@ -3,55 +3,30 @@ header {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: center;
+    align-items: flex-start;
     min-height: 100vh;
-    background-image: url('../media/portada/tef-salto.png');
+    background-image: url('../media/portada/portadaSitio-figma.png');
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
-    animation: slide 15s infinite linear alternate;
-    .mobile {
-        width: 312px;
-        margin-top: 45px;
-    }
-}
-
-@keyframes slide {
-    0% {
-        background-image: url('../media/portada/leo-ceci-portada.png');
-    }
-    15% {
-        background-image: url('../media/portada/leo-ceci-portada.png');
-    }
-
-    20% {
-        background-image: url('../media/portada/luis-leo-salto.png');
-    }
-    35% {
-        background-image: url('../media/portada/luis-leo-salto.png');
-    }
-    40% {
-        background-image: url('../media/portada/luis-lu-silla.png');
-    }
-    55% {
-        background-image: url('../media/portada/luis-lu-silla.png');
-    }
-    60% {
-        background-image: url('../media/portada/luis-silla.png');
-    }
-    75% {
-        background-image: url('../media/portada/luis-silla.png');
-    }
-    80% {
-        background-image: url('../media/portada/tef-salto.png');
-    }
-    100% {
-        background-image: url('../media/portada/tef-salto.png');
+    /* animation: slide 15s infinite linear alternate; */
+    div {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-left: 120px;
+        .mobile {
+            width: 312px;
+            margin-top: 45px;
+            margin-left: 40px;
+        }
     }
 }
 
 header a {
     margin-top: 40px;
+    margin-left: 40px;
     font-size: 1.8rem;
     text-decoration: none;
     color: $grisTres;
@@ -60,13 +35,12 @@ header a {
     border: 2px solid $grisTres;
     transition: all 0.3s ease-in-out;
     &:hover {
-        border: 2px solid transparent;
+        /* border: 2px solid transparent;
         color: $negro;
-        background-color: $grisTres;
+        background-color: $grisTres; */
+        color: $grisTres;
         text-decoration: none;
+        border: 2px solid transparent;
+        box-shadow: 0px 0px 20px 1px $grisTres;
     }
 }
-
-/* header .mobile {
-    display: none;
-} */

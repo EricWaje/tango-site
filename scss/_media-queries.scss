@@ -2,13 +2,23 @@
     .contenedor {
         margin: 0px 4%;
     }
-    /*     header {
-        background-image: linear-gradient(to bottom, #000000d9, #181818),
-            url('../media/huella-20.svg') !important;
-    } */
-    header .mobile {
-        display: block;
-        width: 300px;
+    header {
+        background-position: 75%;
+    }
+    header {
+        align-items: center;
+        div {
+            margin-left: 0px;
+            justify-content: center;
+            align-items: center;
+            a {
+                margin-left: 0px;
+            }
+            .mobile {
+                width: 250px;
+                margin-left: 0px;
+            }
+        }
     }
 
     header .desktop {
@@ -72,33 +82,23 @@
     /* HOME */
 
     #home {
-        padding-top: 70px;
-    }
-
-    #home .homeInfo {
-        justify-content: flex-start;
-        align-items: flex-start;
-    }
-
-    #home p {
-        text-align: left;
-    }
-
-    #home .waveDown {
-        height: 30px;
-        width: 100%;
-    }
-    #home {
         .homeInfo {
+            margin: 150px 0px 0px 0px;
             .contenedorCarousel {
                 justify-content: center;
                 margin-bottom: 30px;
             }
             .introHome {
-                h2,
-                h3,
-                h4 {
-                    text-align: center;
+                width: 330px;
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                justify-content: center;
+                h2 {
+                    font-size: 3.9rem;
+                }
+                h3 {
+                    font-size: 3rem;
                 }
             }
         }
@@ -110,10 +110,6 @@
         }
     }
     /* GALLERY */
-    #gallery {
-        background-image: url('../media/elenco/fondo-about.png');
-        background-position: 52%;
-    }
 
     /* CONTACT */
     #formulario {
@@ -126,21 +122,20 @@
     .grilla {
         display: grid;
         grid-template-areas:
-            'fotoUno'
-            'fotoDos'
-            'fotoTres'
-            'fotoCuatro'
-            'fotoCinco'
-            'fotoSeis'
-            'fotoSiete'
-            'fotoOcho'
-            'fotoNueve'
-            'fotoDiez'
-            'fotoOnce'
-            'fotoDoce'
-            'fotoTrece'
-            'fotoCatorce'
-            'fotoQuince';
+            'foto-5'
+            'foto-4'
+            'foto-19'
+            'foto-12'
+            'foto-25'
+            'foto-16'
+            'foto-14'
+            'foto-26'
+            'foto-1'
+            'foto-11'
+            'foto-9'
+            'foto-13'
+            'foto-3'
+            'foto-17';
         gap: 0.1rem;
         .fotoUno,
         .fotoDos,
