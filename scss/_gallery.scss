@@ -45,10 +45,10 @@
 }
 
 #photos {
-    background-image: url('../media/gallerySitio.png');
+    background-image: url('../media/gale.png');
     background-position: center;
     background-size: cover;
-    min-height: 120vh;
+    min-height: 80vh;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -68,6 +68,7 @@
         -webkit-animation: titila 1.2s infinite alternate;
         animation: titila 1.2s infinite alternate;
         border: 2px solid $grisTres;
+        background-color: transparent;
         &:hover {
             /* color: $negro; */
             /* background-color: $grisTres; */
