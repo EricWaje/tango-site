@@ -158,11 +158,11 @@ nav .menuNav li .pagActive {
 
 /* HOME */
 #home {
-  background-image: url("../media/elenco/edit.png");
+  background-image: url("../media/live.png");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
-  min-height: 100vh;
+  min-height: 110vh;
   padding: 100px 0px 80px 0px;
   position: relative;
   display: -webkit-box;
@@ -1121,27 +1121,29 @@ footer .contenedorFooter h6 {
   .grilla {
     display: -ms-grid;
     display: grid;
-        grid-template-areas: 'foto-5' 'foto-4' 'foto-19' 'foto-12' 'foto-25' 'foto-16' 'foto-14' 'foto-26' 'foto-1' 'foto-11' 'foto-9' 'foto-13' 'foto-3' 'foto-17';
+        grid-template-areas: 'foto-3' 'foto-5' 'foto-9' 'foto-12' 'foto-13' 'foto-17' 'foto-19' 'foto-26' 'foto-27' 'foto-29' 'foto-30' 'foto-31' 'foto-32' 'foto-33' 'foto-34' 'foto-35' 'foto-36' 'foto-37';
     gap: 0.1rem;
-  }
-  .grilla .fotoUno,
-  .grilla .fotoDos,
-  .grilla .fotoTres,
-  .grilla .fotoCuatro,
-  .grilla .fotoCinco,
-  .grilla .fotoSeis,
-  .grilla .fotoOcho,
-  .grilla .fotoNueve,
-  .grilla .fotoDiez,
-  .grilla .fotoOnce,
-  .grilla .fotoDoce,
-  .grilla .fotoTrece,
-  .grilla .fotoCatorce,
-  .grilla .fotoQuince {
-    width: 100%;
-    height: auto;
-    -o-object-fit: contain;
-       object-fit: contain;
+    /* .fotoUno,
+        .fotoDos,
+        .fotoTres,
+        .fotoCuatro,
+        .fotoCinco,
+        .fotoSeis,
+        .fotoOcho,
+        .fotoNueve,
+        .fotoDiez,
+        .fotoOnce,
+        .fotoDoce,
+        .fotoTrece,
+        .fotoCatorce,
+        .fotoQuince,
+        .fotoDieciseis,
+        .fotoDiecisiete,
+        .fotoDieciocho {
+            width: 100%;
+            height: auto;
+            object-fit: contain;
+        } */
   }
   /* NOSOTROS */
   #nosotros {
