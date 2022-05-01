@@ -1,95 +1,10 @@
 <!DOCTYPE html>
 <html lang="en">
     <head>
-        <link rel="icon" href="./media/01. LOGO-ORIGINAL.png" />
+        <link rel="icon" href="../media/01. LOGO-ORIGINAL.png" />
         <meta charset="UTF-8" />
         <meta http-equiv="X-UA-Compatible" content="IE=edge" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <meta
-            name="facebook-domain-verification"
-            content="bfbudl5c425dby965s6ie3e0pq190f"
-        />
-        <!-- Google Tag Manager -->
-        <script>
-            (function (w, d, s, l, i) {
-                w[l] = w[l] || [];
-                w[l].push({
-                    'gtm.start': new Date().getTime(),
-                    event: 'gtm.js',
-                });
-                var f = d.getElementsByTagName(s)[0],
-                    j = d.createElement(s),
-                    dl = l != 'dataLayer' ? '&l=' + l : '';
-                j.async = true;
-                j.src = 'https://www.googletagmanager.com/gtm.js?id=' + i + dl;
-                f.parentNode.insertBefore(j, f);
-            })(window, document, 'script', 'dataLayer', 'GTM-KMPRWBN');
-        </script>
-        <!-- End Google Tag Manager -->
-        <!-- Facebook Pixel Code -->
-        <script>
-            !(function (f, b, e, v, n, t, s) {
-                if (f.fbq) return;
-                n = f.fbq = function () {
-                    n.callMethod
-                        ? n.callMethod.apply(n, arguments)
-                        : n.queue.push(arguments);
-                };
-                if (!f._fbq) f._fbq = n;
-                n.push = n;
-                n.loaded = !0;
-                n.version = '2.0';
-                n.queue = [];
-                t = b.createElement(e);
-                t.async = !0;
-                t.src = v;
-                s = b.getElementsByTagName(e)[0];
-                s.parentNode.insertBefore(t, s);
-            })(
-                window,
-                document,
-                'script',
-                'https://connect.facebook.net/en_US/fbevents.js'
-            );
-            fbq('init', '400285471584949');
-            fbq('track', 'PageView');
-        </script>
-        <noscript
-            ><img
-                height="1"
-                width="1"
-                style="display: none"
-                src="https://www.facebook.com/tr?id=400285471584949&ev=PageView&noscript=1"
-        /></noscript>
-        <!-- End Facebook Pixel Code -->
-        <!-- Global site tag (gtag.js) - Google Analytics -->
-        <script
-            async
-            src="https://www.googletagmanager.com/gtag/js?id=G-5SN811XEV2"
-        ></script>
-        <script>
-            window.dataLayer = window.dataLayer || [];
-            function gtag() {
-                dataLayer.push(arguments);
-            }
-            gtag('js', new Date());
-
-            gtag('config', 'G-5SN811XEV2');
-        </script>
-        <!-- Global site tag (gtag.js) - Google Analytics -->
-        <script
-            async
-            src="https://www.googletagmanager.com/gtag/js?id=G-JH1QNBKVJ7"
-        ></script>
-        <script>
-            window.dataLayer = window.dataLayer || [];
-            function gtag() {
-                dataLayer.push(arguments);
-            }
-            gtag('js', new Date());
-
-            gtag('config', 'G-JH1QNBKVJ7');
-        </script>
         <!-- AOS -->
         <link
             href="https://unpkg.com/aos@2.3.1/dist/aos.css"
@@ -103,7 +18,7 @@
             crossorigin="anonymous"
         />
         <!-- MI ESTILOS -->
-        <link rel="stylesheet" href="css/estilos.css" />
+        <link rel="stylesheet" href="../css/estilos.css" />
         <title>Argento Tango</title>
     </head>
     <body>
@@ -115,10 +30,10 @@
             >
                 <img
                     class="mobile"
-                    src="media/LOGO-TRANSPARENTE-BLANCO.png"
+                    src="../media/LOGO-TRANSPARENTE-BLANCO.png"
                     alt=""
                 />
-                <a href="#home">Show me more!</a>
+                <a href="#home">Mostrame más!</a>
             </div>
         </header>
         <!-- NAV -->
@@ -132,19 +47,21 @@
                 <img src="media/menuu.svg" id="hamb" alt="menu" />
                 <ul class="menuNav" id="menu">
                     <li>
-                        <a class="item pagActive" href="#portada">Home 🇺🇸</a>
+                        <a class="item" href="../index.html">Home 🇺🇸</a>
                     </li>
                     <li>
-                        <a class="item" href="pages/inicio.html">Inicio 🇪🇸</a>
+                        <a class="item pagActive" href="inicio.html"
+                            >Inicio 🇪🇸</a
+                        >
                     </li>
                     <li>
-                        <a class="item" href="#gallery">About Us</a>
+                        <a class="item" href="#gallery">Nosotros</a>
                     </li>
                     <li>
-                        <a class="item" href="pages/gallery.html">Gallery</a>
+                        <a class="item" href="galeria.html">Galería</a>
                     </li>
                     <!-- <li><a href="#show">Showtime</a></li> -->
-                    <li><a class="item" href="#contact">Contact</a></li>
+                    <li><a class="item" href="#contact">Contacto</a></li>
                 </ul>
             </div>
         </nav>
@@ -162,9 +79,9 @@
                             >
                                 <div>
                                     <div class="introHome">
-                                        <h3>Live a</h3>
-                                        <h2>UNIQUE EXPERIENCE</h2>
-                                        <h3>with us</h3>
+                                        <h3>Viví</h3>
+                                        <h2>UNA EXPERIENCIA</h2>
+                                        <h3>Única</h3>
                                     </div>
                                 </div>
                             </div>
@@ -172,25 +89,13 @@
                     </div>
                 </div>
             </section>
-            <!--            <svg
-                class="waveDown"
-                preserveAspectRatio="none"
-                xmlns="http://www.w3.org/2000/svg"
-                viewBox="0 0 1440 320"
-            >
-                <path
-                    fill="#181818"
-                    fill-opacity="1"
-                    d="M0,96L120,128C240,160,480,224,720,208C960,192,1200,96,1320,48L1440,0L1440,320L1320,320C1200,320,960,320,720,320C480,320,240,320,120,320L0,320Z"
-                ></path>
-            </svg> -->
         </main>
         <!-- GALLERY -->
         <section id="gallery">
             <div class="container">
                 <div class="row textoVideo">
                     <div class="col-lg-6">
-                        <h2>We are Argento Tango...</h2>
+                        <h2>Somos Argento Tango...</h2>
                         <p>
                             Five argentine artists with one goal: to give you
                             the best on stage experience. <br />
@@ -218,24 +123,6 @@
                                 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
                                 allowfullscreen
                             ></iframe>
-                            <!-- <iframe
-                                width="560"
-                                height="315"
-                                src="https://www.youtube.com/embed/vtwe-oXBnLo"
-                                title="YouTube video player"
-                                frameborder="0"
-                                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                                allowfullscreen
-                            ></iframe> -->
-                            <!-- <iframe
-                                width="560"
-                                height="315"
-                                src="https://www.youtube.com/embed/0Q8yIrHdYLY"
-                                title="YouTube video player"
-                                frameborder="0"
-                                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                                allowfullscreen
-                            ></iframe> -->
                         </div>
                     </div>
                 </div>
@@ -250,7 +137,7 @@
                         data-aos-duration="2000"
                         data-aos-once="true"
                     >
-                        <a href="pages/gallery.html">Gallery</a>
+                        <a href="gallery.html">Galería</a>
                     </div>
                 </div>
             </div>
@@ -265,7 +152,7 @@
                         data-aos-duration="1000"
                         data-aos-once="true"
                     >
-                        <h2>CONTACT US</h2>
+                        <h2>Contactanos</h2>
                     </div>
                 </div>
             </div>
@@ -284,7 +171,7 @@
                                     type="text"
                                     class="form-control inputForm"
                                     aria-describedby="emailHelp"
-                                    placeholder="Full Name"
+                                    placeholder="Nombre completo"
                                 />
                             </div>
                             <div class="form-group grupoInput">
@@ -300,14 +187,14 @@
                                     id="textArea"
                                     class="form-control mensaje"
                                     rows="6"
-                                    placeholder="Your message"
+                                    placeholder="Dejanos un comentario"
                                 ></textarea>
                             </div>
                             <input
                                 id="submit"
                                 type="submit"
                                 class="btn btn-primary enviar"
-                                value="Send"
+                                value="Enviar"
                             />
                         </form>
                     </div>
@@ -319,23 +206,22 @@
                 <div class="row justify-content-center">
                     <div class="col-lg-6 contenedorFooter">
                         <div>
-                            <!--                             <a href=""
-                                ><img src="media/contact/email.svg" alt=""
-                            /></a> -->
                             <a
                                 href="https://www.facebook.com/Argento-Tango-Show-101869312276172/"
                                 target="_blank"
-                                ><img src="media/contact/facebook.svg" alt=""
+                                ><img
+                                    src="../media/contact/facebook.svg"
+                                    alt=""
                             /></a>
                             <a
                                 href="https://www.instagram.com/argentotango.ok/?hl=es"
                                 target="_blank"
-                                ><img src="media/contact/insta.svg" alt=""
+                                ><img src="../media/contact/insta.svg" alt=""
                             /></a>
                             <a
                                 href="https://www.youtube.com/channel/UCB1av52cJKADeHlEIiQGjHA/videos"
                                 target="_blank"
-                                ><img src="media/contact/youtube.svg" alt=""
+                                ><img src="../media/contact/youtube.svg" alt=""
                             /></a>
                         </div>
                         <h3>argentotangoshow@gmail.com</h3>
@@ -368,16 +254,6 @@
             src="https://cdn.jsdelivr.net/npm/emailjs-com@3/dist/email.min.js"
         ></script>
         <!-- MI SCRIPT -->
-        <!-- Google Tag Manager (noscript) -->
-        <noscript
-            ><iframe
-                src="https://www.googletagmanager.com/ns.html?id=GTM-KMPRWBN"
-                height="0"
-                width="0"
-                style="display: none; visibility: hidden"
-            ></iframe
-        ></noscript>
-        <!-- End Google Tag Manager (noscript) -->
-        <script src="js/app.js"></script>
+        <script src="../js/app.js"></script>
     </body>
 </html>
