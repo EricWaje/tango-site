@@ -268,6 +268,63 @@ nav .menuNav li .pagActive {
   border: 2px solid transparent;
 }
 
+#services {
+  background-color: #181818;
+  padding: 70px 0px 20px 0px;
+  min-height: 50vh;
+}
+
+#services .services-title {
+  color: #d5d5d5;
+  font-size: 4rem;
+  font-weight: 400;
+  text-shadow: 1px 1.5px 10px #7c7c7c;
+  text-align: center;
+  border-bottom: none;
+  margin-bottom: 30px;
+}
+
+#services .container-icons {
+  border: 2px solid #d5d5d5;
+  border: none;
+  margin: 30px 0px 10px 0px;
+  padding: 10px;
+  /* display: flex;
+        flex-direction: column; */
+  /* justify-content: flex-start; */
+  /* align-items: flex-start; */
+}
+
+#services i {
+  color: #d5d5d5;
+  font-size: 2.8rem;
+  margin-top: 8px;
+}
+
+#services span {
+  color: #d5d5d5;
+  font-size: 4rem;
+  margin-bottom: 10px;
+}
+
+#services h2 {
+  color: #d5d5d5;
+  font-size: 2.5rem;
+  padding-bottom: 5px;
+  border-bottom: 2px solid #d5d5d5;
+}
+
+#services p {
+  margin-top: 10px;
+  font-size: 1.7rem;
+  color: #d5d5d5;
+}
+
+#services .italic {
+  font-style: italic;
+  font-size: 1.5rem;
+}
+
 #gallery {
   min-height: 70vh;
   background-color: #181818;
@@ -1155,6 +1212,12 @@ footer .contenedorFooter h6 {
     display: block;
     width: 50%;
     margin: 0 auto;
+  }
+  #services .container-icons {
+    border: 2px solid #d5d5d5;
+    border: none;
+    margin: 30px 0px 10px 0px;
+    padding: 10px 30px;
   }
   /* GALLERY */
   /* CONTACT */
