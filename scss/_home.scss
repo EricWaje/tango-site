@@ -1,31 +1,45 @@
 /* HOME */
 
 #home {
-    background-image: url('../media/luis-home.png');
+    background-image: url('../media/portada/portadaSitio-figma.png');
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
-    min-height: 110vh;
+    min-height: 90vh;
     padding: 100px 0px 80px 0px;
     position: relative;
     display: flex;
-    flex-direction: column;
-    justify-content: center;
+    /* flex-direction: column; */
+    /* justify-content: center; */
     align-items: center;
     background-color: $grisTres;
     .homeInfo {
         position: relative;
         display: flex;
-        flex-direction: column;
+        /* flex-direction: column; */
         justify-content: center;
         align-items: center;
-        margin: 150px 0px 0px 15px;
+        /* margin: 150px 0px 0px 15px; */
+
+        /* .logo-button {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            a {
+                display: inline-block;
+                width: 180px;
+                text-align: center;
+            }
+            .mobile {
+                width: 300px;
+            }
+        } */
         .introHome {
-            height: 400px;
+            height: 300px;
             width: 500px;
             display: flex;
             flex-direction: column;
-            align-items: flex-end;
+            align-items: flex-start;
             justify-content: flex-end;
 
             h2 {
@@ -49,7 +63,7 @@
         text-decoration: none;
         color: $grisTres;
         background-color: transparent;
-        margin-top: 50px;
+        margin-top: 15px;
         margin-bottom: 50px;
         border: 2px solid $grisTres;
         padding: 10px 20px;
