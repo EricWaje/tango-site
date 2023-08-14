@@ -129,7 +129,7 @@ nav .menuNav li .pagActive {
 
 /* HOME */
 #home {
-  background-image: url("../media/newPics/portada-3.png");
+  background-image: url("../media/portada/portadaSitio-figma.png");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -340,7 +340,7 @@ nav .menuNav li .pagActive {
   background-image: url("../media/newPics/gallery-3.png");
   background-position: top;
   background-size: cover;
-  min-height: 80vh;
+  min-height: 95vh;
   display: flex;
   flex-direction: column;
   justify-content: center;
