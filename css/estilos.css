@@ -73,7 +73,6 @@ nav {
   justify-content: space-between;
   align-items: center;
   height: 80px;
-  position: -webkit-sticky;
   position: sticky;
   top: 0px;
   padding: 15px 0px;
@@ -130,7 +129,7 @@ nav .menuNav li .pagActive {
 
 /* HOME */
 #home {
-  background-image: url("../media/portada/portadaSitio-figma.png");
+  background-image: url("../media/newPics/portada-3.png");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -338,8 +337,8 @@ nav .menuNav li .pagActive {
 }
 
 #photos {
-  background-image: url("../media/leo-ceci-gallery.png");
-  background-position: center;
+  background-image: url("../media/newPics/gallery-3.png");
+  background-position: top;
   background-size: cover;
   min-height: 80vh;
   display: flex;
@@ -358,7 +357,6 @@ nav .menuNav li .pagActive {
   text-shadow: 1px 1.5px 10px #7c7c7c;
   transition: all 0.3s ease-in-out;
   padding: 7px 11px;
-  -webkit-animation: titila 1.2s infinite alternate;
   animation: titila 1.2s infinite alternate;
   border: 2px solid #d5d5d5;
   background-color: transparent;
@@ -368,15 +366,6 @@ nav .menuNav li .pagActive {
   /* background-color: $grisTres; */
   border: 2px solid transparent;
   box-shadow: 0px 0px 20px 1px #d5d5d5;
-}
-
-@-webkit-keyframes titila {
-  0% {
-    text-shadow: 1px 1.5px 10px #7c7c7c;
-  }
-  100% {
-    text-shadow: 3px 5px 20px #7c7c7c;
-  }
 }
 
 @keyframes titila {
