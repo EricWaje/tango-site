@@ -337,8 +337,13 @@ nav .menuNav li .pagActive {
 }
 
 #photos {
+<<<<<<< HEAD
   background-image: url("../media/newPics/gallery-3.png");
   background-position: top;
+=======
+  background-image: url("../media/gallery-3.png");
+  background-position: center;
+>>>>>>> 6d2264ae6d0fc5d15b64174e34bdbd8db7db6034
   background-size: cover;
   min-height: 95vh;
   display: flex;
