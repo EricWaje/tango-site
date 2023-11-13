@@ -376,6 +376,57 @@ nav .menuNav li .pagActive {
     text-shadow: 3px 5px 20px #7c7c7c;
   }
 }
+#ships {
+  padding-top: 40px;
+  background-color: #d5d5d5;
+  display: flex;
+  align-items: center;
+  /* background: rgb(24, 24, 24);
+  background: linear-gradient(
+      180deg,
+      rgba(24, 24, 24, 1) 0%,
+      rgba(61, 61, 61, 1) 4%,
+      rgba(88, 88, 88, 1) 8%,
+      rgba(111, 111, 111, 1) 13%,
+      rgba(163, 163, 163, 1) 16%,
+      rgba(213, 213, 213, 1) 20%,
+      rgba(213, 213, 213, 1) 100%
+  ); */
+}
+#ships .container-logos-title {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+#ships .container-logos-title .title-ships {
+  color: #181818;
+  font-size: 2.5rem;
+  font-weight: 400;
+  text-shadow: 1px 1.5px 10px #6b6b6b;
+  text-align: center;
+  border-bottom: none;
+}
+#ships .container-logos-title .container-ships {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 50%;
+}
+#ships .container-logos-title .container-ships .container-shipsLogo {
+  display: flex;
+  justify-content: center;
+}
+#ships .container-logos-title .container-ships .container-shipsLogo .aza {
+  width: 100px;
+}
+#ships .container-logos-title .container-ships .container-shipsLogo .hol {
+  width: 220px;
+}
+#ships .container-logos-title .container-ships .container-shipsLogo .cel {
+  width: 90px;
+}
+
 .grilla {
   display: grid;
   grid-template-areas: "foto-5 foto-5 foto-29" "foto-19 foto-12 foto-12" "foto-27 foto-27 foto-30" "foto-35 foto-32 foto-26" "foto-33 foto-31 foto-31" "foto-9 foto-13 foto-3" "foto-37 foto-37 foto-37" "foto-34 foto-36 foto-17";
@@ -765,7 +816,7 @@ nav .menuNav li .pagActive {
 
 footer {
   background-color: #d5d5d5;
-  padding: 20px 0px;
+  padding: 0px 0px 20px 0px;
 }
 footer .contenedorFooter {
   height: 150px;

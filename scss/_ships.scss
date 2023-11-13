@@ -1,0 +1,50 @@
+#ships {
+    padding-top: 40px;
+    background-color: $grisTres;
+    display: flex;
+    align-items: center;
+    /* background: rgb(24, 24, 24);
+    background: linear-gradient(
+        180deg,
+        rgba(24, 24, 24, 1) 0%,
+        rgba(61, 61, 61, 1) 4%,
+        rgba(88, 88, 88, 1) 8%,
+        rgba(111, 111, 111, 1) 13%,
+        rgba(163, 163, 163, 1) 16%,
+        rgba(213, 213, 213, 1) 20%,
+        rgba(213, 213, 213, 1) 100%
+    ); */
+    .container-logos-title {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        .title-ships {
+            color: #181818;
+            font-size: 2.5rem;
+            font-weight: 400;
+            text-shadow: 1px 1.5px 10px #6b6b6b;
+            text-align: center;
+            border-bottom: none;
+        }
+        .container-ships {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            width: 50%;
+            .container-shipsLogo {
+                display: flex;
+                justify-content: center;
+                .aza {
+                    width: 100px;
+                }
+                .hol {
+                    width: 220px;
+                }
+                .cel {
+                    width: 90px;
+                }
+            }
+        }
+    }
+}
