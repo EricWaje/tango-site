@@ -1,5 +1,5 @@
 #contact {
-    min-height: 100vh;
+    min-height: 50vh;
     background-color: $negro;
     padding-top: 20px 0px 20px 0px;
 
@@ -8,6 +8,25 @@
         text-align: center;
         font-size: 4rem;
         padding: 100px 0px 20px 0px;
+    }
+
+    .dropus {
+        /* background-color: red; */
+        padding: 15px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+
+        p {
+            color: #d5d5d5;
+            font-size: 1.5rem;
+        }
+        h3 {
+            color: #d5d5d5;
+            font-weight: bold;
+            font-size: 1.7rem;
+        }
     }
     #formulario {
         .grupoInput {
